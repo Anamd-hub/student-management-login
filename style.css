@@ -1,3 +1,4 @@
+/* Base Styles for Body */
 body {
   background: #ecf0f8;
   font-family: "Open Sans", sans-serif;
@@ -9,6 +10,7 @@ body {
   cursor: auto;
 }
 
+/* Main Section Style */
 .mainSection {
   width: 100%;
   min-height: 300px;
@@ -103,6 +105,7 @@ body {
   align-items: center;
 }
 
+/* Grid Section and Footer Style */
 footer {
   position: fixed;
   bottom: 0;
@@ -153,6 +156,7 @@ footer {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* Responsive Style */
 @media (max-width: 790px) {
   
   .content-wrapper,
