@@ -152,3 +152,42 @@ footer {
   font-weight: 600;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 790px) {
+  
+  .content-wrapper,
+  .login-form-wrapper {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .content-wrapper,
+  .login-form-wrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .mainSection {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .content-wrapper,
+  .login-form-wrapper {
+    width: 100%;
+    max-width: none;
+  }
+  .login-form-wrapper .btn {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 300px) {
+  .grid-section {
+    grid-template-columns: 1fr;
+  }
+}
