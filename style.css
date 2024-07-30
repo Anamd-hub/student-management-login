@@ -102,3 +102,53 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 10pt;
+  width: 100%;
+  background: #ccc;
+  height: 35px;
+  margin-top: -35px;
+  padding: 5px;
+}
+
+.grid-section {
+  --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  gap: 1rem;
+  background-color: #ecf0f8;
+  padding: 1rem;
+}
+
+.grid-item {
+  background-color: #fff;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: #7d7d7d;
+}
+
+.glyph-icon {
+  padding-top: 15px;
+}
+
+.text-center {
+  margin: 3.2px 0 8px;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
