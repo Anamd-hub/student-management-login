@@ -1,0 +1,104 @@
+body {
+  background: #ecf0f8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1.5;
+  position: relative;
+  cursor: auto;
+}
+
+.mainSection {
+  width: 100%;
+  min-height: 300px;
+  padding: 5px;
+  background: url("images/photo_3_2023-12-24_15-30-30.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 35rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-wrapper img {
+  border: none;
+  border-radius: 60px;
+  box-shadow: 5px 5px 5px 0px black;
+}
+
+.content-wrapper h3,
+.content-wrapper h4 {
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.content-wrapper h3 {
+  font-weight: 600;
+}
+
+.content-wrapper h4 {
+  color: rgba(255, 255, 255, 0.839);
+}
+
+.content-wrapper hr {
+  border: 1px solid white;
+}
+
+.login-form-wrapper {
+  width: 100%;
+  max-width: 470px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.278);
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: 3px 2px 5px 0px black;
+}
+
+.inner-login-form-wrapper {
+  padding: 20px;
+}
+
+.inner-login-form-wrapper hr {
+  border: 1px solid white;
+}
+
+.inner-login-form-wrapper h2 {
+  margin-bottom: 1em;
+  font-weight: 600;
+  color: #582f85;
+  font-size: 25px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.inner-login-form-wrapper span {
+  background: #f2f2f2;
+  border: 2px solid white;
+  box-shadow: 3px 2px 5px 0px black;
+}
+
+.inner-login-form-wrapper input, .btn {
+  border-radius: 0;
+  border: none;
+  box-shadow: 3px 2px 5px 0px black;
+}
+
+.btn, #login-btn {
+  border-radius: 5px;
+  padding: 0.4em 1.3em;
+}
+
+.icon-wrapper {
+  border: 2px solid black;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
